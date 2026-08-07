@@ -45,3 +45,7 @@ a {
     color: var(--theme-link-color, revert);
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
