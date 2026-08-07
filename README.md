@@ -10,12 +10,15 @@ The Mojavesoft Design system includes four default themes:
 * Amethyst (`common/css/amethyst.css`) has white text, orange links, and a purple-colored stone background, resembling Minecraft's Amethyst blocks
 * Nether (`common/css/nether.css`) has white text, orange links, and a brick-red stone background, resembling something from Minecraft's Nether dimension
 * White Fur (`common/css/fur.css`) has black text, normal links, and a white background derived from an image of cat fur
+* Shell (`common/css/shell.css`) has white text, deep orange links, and a background derived from an image of a turtle shell
+
 ### Theme demos
 See `example/` for some theme examples:
 * `example/lapis.html` is an example of the Lapis Lazuli theme ([live demo](https://mojavesoft.net/rewrite-july2026/example/lapis.html))
 * `example/amethyst.html` is an example of the Amethyst theme ([live demo](https://mojavesoft.net/rewrite-july2026/example/amethyst.html))
 * `example/nether.html` is an example of the Nether theme ([live demo](https://mojavesoft.net/rewrite-july2026/example/nether.html))
 * `example/fur.html` is an example of the White Fur theme ([live demo](https://mojavesoft.net/rewrite-july2026/example/fur.html))
+* `example/fur.html` is an example of the Shell theme ([live demo](https://mojavesoft.net/rewrite-july2026/example/shell.html))
 
 ## Licensing
 ### Images
