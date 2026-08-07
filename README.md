@@ -10,3 +10,35 @@ See `example/` for some examples:
 * `example/amethyst.html` is an example of the Amethyst theme ([live demo](https://mojavesoft.net/rewrite-july2026/example/amethyst.html))
 * `example/nether.html` is an example of the Nether theme ([live demo](https://mojavesoft.net/rewrite-july2026/example/nether.html))
 * `example/fur.html` is an example of the White Fur theme ([live demo](https://mojavesoft.net/rewrite-july2026/example/fur.html))
+
+## Licensing
+### Images
+All of the images included in the `mojavesoft-design` repository are provided under the CC0 license; see `LICENSE-CC0.txt` for more information.
+
+### Code & documentation
+The code & documentation for the `mojavesoft-design` repository (this README file included) is provided under the MIT license:
+~~~
+MIT License
+
+Copyright (c) 2026 Mojavesoft Group
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+~~~
+
+This license notice is included in the CSS files in the form of comment blocks, so unless you try to strip the comments, you shouldn't need to do anything special to achieve licensing compliance. (I am not a lawyer and this is not legal advice.)
