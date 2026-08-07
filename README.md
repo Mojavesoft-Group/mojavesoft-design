@@ -12,6 +12,31 @@ The Mojavesoft Design system includes four default themes:
 * White Fur (`common/css/fur.css`) has black text, normal links, and a white background derived from an image of cat fur
 * Shell (`common/css/shell.css`) has white text, deep orange links, and a background derived from an image of a turtle shell
 
+### Writing custom themes
+> [!TIP]
+> When creating a custom theme that uses a texture, consider using an image processing program to make the texture tile seamlessly.
+> 
+> In GIMP 3.x, this can be accomplished using the `Filter > Map > Tile Seamless...` tool.
+
+You can create a custom theme by writing a CSS stylesheet in this format:
+~~~css
+/* mytheme.css - Stylesheet for the MyTheme theme. */
+:root {
+    --background-theme-color: white; /* This is the color used as a fallback whenever an image is not available or is currently loading; make sure that it contrasts well with your other theme colors! */
+    --background-theme-texture: url("mytexture.jpg"); /* Change this to match your texture image path, or omit it to fall back to the background theme color. */
+    --background-theme-tilesize: 200px; /* This determines the tile size of the texture, if used. */
+    --theme-link-color: sandybrown; /* The color of links. Omit to use the default color scheme. */
+    --theme-text-color: white; /* The color of text. Omit to use the default color scheme. */
+}
+~~~
+
+### Applying themes
+In order to apply a theme, put this boilerplate code into your HTML document's `<head>`, substituting `common/css/mytheme.css` for the path to the theme's CSS file:
+~~~html
+<link rel="stylesheet" href="common/css/mytheme.css"> <!-- When using subpages, make these paths absolute with /common/... or relative with ../common/... as needed -->
+<link rel="stylesheet" href="common/css/style.css"> <!-- If you don't load style.css, then theming won't be applied. -->
+~~~
+
 ### Theme demos
 See `example/` for some theme examples:
 * `example/lapis.html` is an example of the Lapis Lazuli theme ([live demo](https://mojavesoft.net/rewrite-july2026/example/lapis.html))
