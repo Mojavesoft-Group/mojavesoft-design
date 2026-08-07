@@ -5,7 +5,7 @@ The design system that powers the latest redesign of the Mojavesoft website (Jul
 In order to install the Mojavesoft Design system for your website, download the source code from the Releases tab and adapt your pages to use the styling and layout found under `example/` (see section below for more info on examples).
 
 ## Theming
-The Mojavesoft Design system includes four default themes:
+The Mojavesoft Design system includes a few different default themes:
 * Lapis Lazuli (`common/css/lapis.css`) has white text, orange links, and a blue-colored stone background, resembling Minecraft's Lapis Lazuli blocks
 * Amethyst (`common/css/amethyst.css`) has white text, orange links, and a purple-colored stone background, resembling Minecraft's Amethyst blocks
 * Nether (`common/css/nether.css`) has white text, orange links, and a brick-red stone background, resembling something from Minecraft's Nether dimension
@@ -75,4 +75,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ~~~
 
-This license notice is included in the CSS files in the form of comment blocks, so unless you try to strip the comments, you shouldn't need to do anything special to achieve licensing compliance. (I am not a lawyer and this is not legal advice.)
+This license notice is included in the CSS files in the form of comment blocks, so unless you strip the comments, you shouldn't need to do anything special to achieve licensing compliance. (I am not a lawyer and this is not legal advice.)
