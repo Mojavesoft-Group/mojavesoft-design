@@ -4,8 +4,14 @@ The design system that powers the latest redesign of the Mojavesoft website (Jul
 ## Installation
 In order to install the Mojavesoft Design system for your website, download the source code from the Releases tab and adapt your pages to use the styling and layout found under `example/` (see section below for more info on examples).
 
-## Examples
-See `example/` for some examples:
+## Theming
+The Mojavesoft Design system includes four default themes:
+* Lapis Lazuli (`common/css/lapis.css`) has white text, orange links, and a blue-colored stone background, resembling Minecraft's Lapis Lazuli blocks
+* Amethyst (`common/css/amethyst.css`) has white text, orange links, and a purple-colored stone background, resembling Minecraft's Amethyst blocks
+* Nether (`common/css/nether.css`) has white text, orange links, and a brick-red stone background, resembling something from Minecraft's Nether dimension
+* White Fur (`common/css/fur.css`) has black text, normal links, and a white background derived from an image of cat fur
+### Theme demos
+See `example/` for some theme examples:
 * `example/lapis.html` is an example of the Lapis Lazuli theme ([live demo](https://mojavesoft.net/rewrite-july2026/example/lapis.html))
 * `example/amethyst.html` is an example of the Amethyst theme ([live demo](https://mojavesoft.net/rewrite-july2026/example/amethyst.html))
 * `example/nether.html` is an example of the Nether theme ([live demo](https://mojavesoft.net/rewrite-july2026/example/nether.html))
