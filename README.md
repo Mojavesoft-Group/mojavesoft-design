@@ -1,11 +1,10 @@
-# mojavesoft-design
-The design system that powers the latest redesign of the Mojavesoft website (July 2026-present), modified to work for any website.
-
+# sandstone
+Sandstone is a design system that's used for the latest redesign of the Mojavesoft website (July 2026-present).
 ## Installation
-In order to install the Mojavesoft Design system for your website, download the source code from the Releases tab and adapt your pages to use the styling and layout found under `example/` (see section below for more info on examples).
+In order to install Sandstone for your website, download the source code from the Releases tab and adapt your pages to use the styling and layout found under `example/` (see section below for more info on examples).
 
 ## Theming
-The Mojavesoft Design system includes a few different default themes:
+Sandstone includes a few different default themes:
 * Lapis Lazuli (`common/css/lapis.css`) has white text, orange links, and a blue-colored stone background, resembling Minecraft's Lapis Lazuli blocks
 * Amethyst (`common/css/amethyst.css`) has white text, orange links, and a purple-colored stone background, resembling Minecraft's Amethyst blocks
 * Nether (`common/css/nether.css`) has white text, orange links, and a brick-red stone background, resembling something from Minecraft's Nether dimension
@@ -47,10 +46,10 @@ See `example/` for some theme examples:
 
 ## Licensing
 ### Images
-All of the images included in the `mojavesoft-design` repository are provided under the CC0 license; see `LICENSE-CC0.txt` for more information.
+All of the images included in the Sandstone repository are provided under the CC0 license; see `LICENSE-CC0.txt` for more information.
 
-### Code & documentation
-The code & documentation for the `mojavesoft-design` repository (this README file included) is provided under the MIT license:
+### CSS stylesheets & Markdown documentation
+The CSS stylesheets & Markdown documentation for the Sandstone repository (this README file included) are provided under the MIT license:
 ~~~
 MIT License
 
@@ -76,3 +75,24 @@ SOFTWARE.
 ~~~
 
 This license notice is included in the CSS files in the form of comment blocks, so unless you strip the comments, you shouldn't need to do anything special to achieve licensing compliance. (I am not a lawyer and this is not legal advice.)
+
+### Examples
+The examples for Sandstone (found under `example/`) are made available under the 0BSD license:
+~~~
+BSD Zero Clause License
+
+Copyright (c) 2026 Mojavesoft Group
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+~~~
+
+Note that these examples rely upon non-0BSD resources to work properly.
